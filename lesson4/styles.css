@@ -4,7 +4,7 @@
 *,
 *::after,
 *::before {
-  margin: 0px;
+  margin: 0 px;
   padding: 0px;
 }
 .nav-link,
@@ -48,11 +48,24 @@
   color: #f38181;
 }
 
-.title {
+.title4 {
+  font-family: "Kaushan Script", cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title3::before {
+  content: "";
+  background-color: #f38181;
+  width: 60px;
+  height: 3px;
+  position: absolute;
+  top: 360px;
+}
+.title3 {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
-  font-size: 30px;
 }
 
 .title1 {
@@ -82,6 +95,10 @@
 
 .pic {
   margin-right: 20px;
+}
+img {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .box {
@@ -115,7 +132,19 @@
   opacity: 0;
 }
 .title2 {
+  font-family: Montserrat-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 30pt;
+  color: rgba(51, 51, 51, 255);
   text-align: center;
+  margin: 0;
+}
+.title2::after {
+  content: "";
+  background-color: #f38181;
+  width: 60px;
+  height: 3px;
+  margin: 45px auto 45px;
+  display: block;
 }
 
 .item:hover > .SubMenu {
@@ -126,7 +155,7 @@
 
 .SubMenu > li {
   width: 56px;
-  height: 56px;
+  height: 60px;
   background-color: #fce38a;
   display: flex;
   justify-content: center;
@@ -141,6 +170,7 @@
 .description2 {
   text-align: center;
   box-sizing: inherit;
+  font-size: 20px;
 }
 
 .container1 {
@@ -155,14 +185,31 @@
 
 .input {
   border-color: #ccc;
+  position: relative;
+  height: 30px;
+  font-family: Roboto-LightItalic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 15pt;
+  color: rgba(204, 204, 204, 255);
+  text-align: left;
 }
 
 .button {
   background-color: #95e1d3;
-  width: 100px;
-  height: 50px;
+  width: 110px;
+  height: 35px;
   text-transform: uppercase;
+  font-family: Montserrat-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 14pt;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
 }
 .about {
   text-align: center;
+}
+
+.footer {
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: flex-end;
 }
