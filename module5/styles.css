@@ -149,23 +149,3 @@ CSS* {
   color: white;
 }
 
-.hove {
-  color: #7fd9c7;
-  display: inline-block;
-}
-
-
-
-li:last-of-type {
-  width: 230px;
-  position: absolute;
-  top: 400px;
-  left: 118px;
-}
-
-img {
-  background-color: #c0c0c08f;
-  width: 300px;
-  height: 322px;
-  top:0;
-}
