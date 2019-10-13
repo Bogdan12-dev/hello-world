@@ -149,3 +149,21 @@ CSS* {
   color: white;
 }
 
+img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.icon {
+  list-style: none;
+  display: inline-block;
+}
+.buy {
+  height: 270px;
+  background-color: #737373;
+  top: 0;
+  position: absolute;
+}

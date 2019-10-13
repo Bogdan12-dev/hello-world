@@ -202,6 +202,7 @@ img {
   font-size: 14pt;
   color: rgba(255, 255, 255, 255);
   text-align: center;
+  text-decoration: none;
 }
 .about {
   text-align: center;
@@ -213,7 +214,7 @@ img {
   justify-content: flex-end;
   align-items: flex-end;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> edbf31c649a89b49870f3dd248bdc8c74c704c7c
+a {
+  text-decoration: none;
+}
