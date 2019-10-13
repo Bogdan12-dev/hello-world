@@ -31,7 +31,6 @@
 }
 .logo {
   text-decoration: none;
-  color: #000;
   font-size: 40px;
   font-family: "Qwigley";
   text-transform: uppercase;
@@ -39,7 +38,6 @@
 .logo {
   color: #fed136;
 }
-
 .text {
   text-align: center;
   margin-top: 100px;
@@ -151,7 +149,7 @@ button {
 .map {
   position: absolute;
   top: 140px;
-  left: 820px;
+  left: 735px;
 }
 
 img {
