@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-size: 11px;
+  line-height: 25px;
+}
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+}
+.list-item {
+  display: inline-block;
+}
+.nav-link {
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.header {
+  padding: 75px 0 100px 0;
+}
+.nav-list {
+  text-align: center;
+}
+.list-item {
+  margin-right: 110px;
+  font-family: "Playfair Display", serif;
+}
+.list-item:last-child {
+  margin-right: 0;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: blue;
+}
+.card-item {
+  list-style: none;
+  width: 420px;
+  display: inline-block;
+  margin-right: 56px;
+  margin-bottom: 130px;
+}
+.card-item:nth-child(2n) {
+  margin-right: 0;
+}
+.card-item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+.cards-list {
+  font-size: 0;
+}
+.title,
+.description {
+  font-size: 16px;
+}
+
+.cards-list {
+  margin-bottom: 100px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  font-family: PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 20pt;
+  color: rgba(98, 98, 98, 255);
+  width: 20%;
+  height: 60px;
+  margin-bottom: 40px;
+}
+.img {
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 20px;
+  font-family: Ubuntu-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 14pt;
+  color: rgba(180, 173, 158, 255);
+  text-align: left;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-family: PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+  font-size: 30px;
+  color: rgba(98, 98, 98, 255);
+  text-align: left;
+}
+
+.description1 {
+  font-size: 16px;
+}
