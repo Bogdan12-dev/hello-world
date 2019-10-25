@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.meta {
+  margin-left: 530px;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: left;
+  font-family: "Satisfy", cursive;
+}
+.img {
+  margin: auto;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  display: inline;
+  margin-left: 200px;
+  margin-right: 10px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.text {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Satisfy", cursive;
+}
+.imgage {
+  margin-right: 10px;
+}
+
+.want {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Satisfy", cursive;
+}
+
+.tablet {
+  height: 340px;
+  width: 480px;
+  margin-left: 420px;
+}
+.plansh {
+  font-family: "Satisfy", cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+}
